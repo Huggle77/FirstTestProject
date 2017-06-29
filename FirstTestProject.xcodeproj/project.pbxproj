@@ -12,8 +12,6 @@
 		8004E2411F055406002080C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8004E23F1F055406002080C2 /* Main.storyboard */; };
 		8004E2431F055406002080C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8004E2421F055406002080C2 /* Assets.xcassets */; };
 		8004E2461F055406002080C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8004E2441F055406002080C2 /* LaunchScreen.storyboard */; };
-		8004E2511F055406002080C2 /* FirstTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004E2501F055406002080C2 /* FirstTestProjectTests.swift */; };
-		8004E25C1F055406002080C2 /* FirstTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004E25B1F055406002080C2 /* FirstTestProjectUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		8004E2451F055406002080C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8004E2471F055406002080C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8004E24C1F055406002080C2 /* FirstTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8004E2501F055406002080C2 /* FirstTestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestProjectTests.swift; sourceTree = "<group>"; };
-		8004E2521F055406002080C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8004E2571F055406002080C2 /* FirstTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8004E25B1F055406002080C2 /* FirstTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestProjectUITests.swift; sourceTree = "<group>"; };
-		8004E25D1F055406002080C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				8004E23A1F055406002080C2 /* FirstTestProject */,
-				8004E24F1F055406002080C2 /* FirstTestProjectTests */,
-				8004E25A1F055406002080C2 /* FirstTestProjectUITests */,
 				8004E2391F055406002080C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				8004E2471F055406002080C2 /* Info.plist */,
 			);
 			path = FirstTestProject;
-			sourceTree = "<group>";
-		};
-		8004E24F1F055406002080C2 /* FirstTestProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				8004E2501F055406002080C2 /* FirstTestProjectTests.swift */,
-				8004E2521F055406002080C2 /* Info.plist */,
-			);
-			path = FirstTestProjectTests;
-			sourceTree = "<group>";
-		};
-		8004E25A1F055406002080C2 /* FirstTestProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8004E25B1F055406002080C2 /* FirstTestProjectUITests.swift */,
-				8004E25D1F055406002080C2 /* Info.plist */,
-			);
-			path = FirstTestProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +167,7 @@
 				TargetAttributes = {
 					8004E2371F055406002080C2 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8RC57KVPCV;
 						ProvisioningStyle = Automatic;
 					};
 					8004E24B1F055406002080C2 = {
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8004E2511F055406002080C2 /* FirstTestProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8004E25C1F055406002080C2 /* FirstTestProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8RC57KVPCV;
 				INFOPLIST_FILE = FirstTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lukas.FirstTestProject;
@@ -426,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8RC57KVPCV;
 				INFOPLIST_FILE = FirstTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lukas.FirstTestProject;
